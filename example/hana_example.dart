@@ -1,6 +1,7 @@
 import 'package:hana/hana.dart';
 
 void main() {
-  var awesome = Awesome();
-  print('awesome: ${awesome.isAwesome}');
+  Hana.setClientId('test');
+
+  print(Hana.Auth.getClientId);
 }
